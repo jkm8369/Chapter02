@@ -1,8 +1,12 @@
 package com.javaex.ex07;
 
+import java.util.Scanner;
+
 public class SongApp {
 
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
 		
 		Song song01 = new Song();
 		song01.setArtist("아이유");
@@ -12,6 +16,7 @@ public class SongApp {
 		song01.setTrack(3);
 		song01.setComposer("이민수");
 		song01.showInfo();
+		
 		
 		
 		Song song02 = new Song();
@@ -38,7 +43,7 @@ public class SongApp {
 		
 		
 		
-
+		sc.close();
 	}
 
 }
