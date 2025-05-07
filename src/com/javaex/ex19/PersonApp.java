@@ -6,7 +6,7 @@ public class PersonApp {
 		
 		/*
 		//이름 나이 학교이름
-		//Student에 extends Perosn 지우고 테스트
+		//Student에 extends Person 지우고 테스트
 		//Student가 Person을 상속받기전
 		Student s01 = new Student();
 		s01.setSchoolName("제주고등학교");

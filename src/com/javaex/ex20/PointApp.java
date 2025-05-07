@@ -5,9 +5,11 @@ public class PointApp {
 	public static void main(String[] args) {
 		
 		Point p = new Point(4, 4);
+		System.out.println(p.toString());
 		
 		ColorPoint cp1 = new ColorPoint("red");
-		ColorPoint cp2 = new ColorPoint(10, 10, "blue");	
+		ColorPoint cp2 = new ColorPoint(10, 10, "blue");
+		
 		
 		System.out.println(cp1.getColor());
 		
@@ -15,7 +17,7 @@ public class PointApp {
 		System.out.println(cp2.getY());
 		System.out.println(cp2.getColor());
 		
-		cp2.showInfo();
+		cp2.draw();
 		
 		
 		
