@@ -1,10 +1,10 @@
-package com.javaex.review;
+package com.javaex.ex23;
 
 public class Circle extends Shape {
-
+	
 	//필드
 	private int radius;
-
+	
 	//생성자
 	public Circle() {
 		super();
@@ -19,7 +19,7 @@ public class Circle extends Shape {
 		super(fillColor, lineColor);
 		this.radius = radius;
 	}
-
+	
 	//메소드 gs
 	public int getRadius() {
 		return radius;
@@ -28,7 +28,7 @@ public class Circle extends Shape {
 	public void setRadius(int radius) {
 		this.radius = radius;
 	}
-
+	
 	//메소드 일반
 	@Override
 	public String toString() {
@@ -37,19 +37,20 @@ public class Circle extends Shape {
 	}
 	
 	public void draw() {
-		System.out.println("===============원을 그렸습니다=============");
+		System.out.println("===========원을 그렸습니다=========");
+		System.out.println("반지름: "+ this.radius);
 		System.out.println("면색: " + super.getFillColor());
 		System.out.println("선색: " + super.getLineColor());
-		System.out.println("반지름: " + radius);
-		System.out.println("===========================================");
+		System.out.println("==================================");
 	}
 	
 	
-	
-	
-	
-	
-	
+	//넓이 구하는 함수
+	public void area() {
+		System.out.println("원의 넓이----------------");
+		System.out.println(3.14*radius*radius);
+		System.out.println("-----------------------");
+	}
 	
 	
 	

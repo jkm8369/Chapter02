@@ -1,4 +1,4 @@
-package com.javaex.ex22;
+package com.javaex.ex23;
 
 public abstract class Shape {
 
@@ -54,7 +54,7 @@ public abstract class Shape {
 	//abstract 사용한 메소드는 자식이 꼭 구현해야한다
 	public abstract void draw();  //내용을 안써도 된다--> 오버라이딩용 메소드
 					     
-	
+	public abstract void area();
 	
 	
 	

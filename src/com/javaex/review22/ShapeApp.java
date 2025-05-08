@@ -1,4 +1,4 @@
-package com.javaex.review;
+package com.javaex.review22;
 
 public class ShapeApp {
 

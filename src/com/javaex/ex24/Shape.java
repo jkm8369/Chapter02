@@ -1,6 +1,6 @@
-package com.javaex.review;
+package com.javaex.ex24;
 
-public class Shape {
+public abstract class Shape {
 
 	//필드
 	private String fillColor;
@@ -10,14 +10,15 @@ public class Shape {
 	public Shape() {
 		super();
 	}
-
+	
 	public Shape(String fillColor, String lineColor) {
 		super();
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 	}
-
-	//메소드 gs
+	
+	
+	//메소드gs
 	public String getFillColor() {
 		return fillColor;
 	}
@@ -40,12 +41,17 @@ public class Shape {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
 	
+	/*
 	public void draw() {
+		//코드 넣을게 없어서 억지로 씀
 		
 	}
+	*/
 	
-	
-	
+	//인터페이스가 draw 개념을 가지고 있음
+	//public abstract void draw();  //내용을 안써도 된다--> 오버라이딩용 메소드
+					     
+	public abstract void area();
 	
 	
 	
